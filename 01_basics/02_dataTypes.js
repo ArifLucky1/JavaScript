@@ -16,7 +16,7 @@ let isLoggedIn = false
 // boolean => true/false
 // null => standalone value   this is kind of type. wo khali h. null means empty.
 // undefined => 
-// symbol => unique
+// symbol => for uniqueness
 
 // object
 

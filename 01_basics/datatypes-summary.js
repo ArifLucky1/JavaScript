@@ -52,3 +52,27 @@
 // function ka datatypes function is return krta h pr isko bola jata h object-function..
 // jitne bhi non-primitive type h inka jo return type h wo object hi aata h..
     
+
+// *********************** Stack And Heap ************************************
+
+// Stack (Primitive)
+// Heap (Non-Primitive)
+
+// Use of Stack (Call By Value/ Just copy the value)
+let website = "arifdotcom"
+
+let anotherwebsite = "mywebsite"
+anotherwebsite = "joinArif"
+
+console.log(website);
+console.log(anotherwebsite);
+
+// Use of heap (Call By Reference)
+
+let userOne = {
+    email: "arif@google.com",
+    upi: "arif@ybl"
+}
+
+let userTwo = userOne;
+console.log(userTwo);

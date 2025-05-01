@@ -20,3 +20,8 @@ const gameName = new String('Mohd-Arif')        //Do gameName in Browser console
 // console.log(gameName[3]);       d
 // console.log(gameName[4]);       -
 // console.log(gameName[5]);       A
+
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(2));
+console.log(gameName.indexOf('t'));

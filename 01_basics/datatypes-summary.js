@@ -75,4 +75,7 @@ let userOne = {
 }
 
 let userTwo = userOne;
+
+userTwo.email = "MohdArif@micro.com"
+console.log(userOne);
 console.log(userTwo);

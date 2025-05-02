@@ -33,3 +33,17 @@ console.log(newString);
 
 const anotherString = gameName.slice(2, 3)
 console.log(anotherString);
+
+const newStringOne = "   Arif     "
+console.log(newStringOne);
+console.log(newStringOne.trim());
+
+const url = "https://Arif.com/Arif%20Mohd%sdjnfklsfskdnvskkkyabtayienkahahoyrrsnlksnd"
+console.log(url.replace("%20", "-"));               //Arif-Mohd
+
+console.log(url.includes("Arif"));                  //true      for finding anything
+console.log(url.includes("kahaho"));                //true      for finding anything
+console.log(url.includes("yahaAoo"));               //false
+ 
+console.log(gameName.split('-'));
+

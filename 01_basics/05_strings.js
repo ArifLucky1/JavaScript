@@ -28,3 +28,8 @@ console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
 console.log(gameName.indexOf('t'));
 
+const newString = gameName.substring(0, 5)
+console.log(newString);
+
+const anotherString = gameName.slice(2, 3)
+console.log(anotherString);

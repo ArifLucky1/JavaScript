@@ -47,3 +47,6 @@ console.log(Object.keys(tinderUser));       // [ 'id', 'name', 'isLoggedIn' ] in
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));           //boolean value..  TRUE        // like includes..
+
+
+//keys Values entries...

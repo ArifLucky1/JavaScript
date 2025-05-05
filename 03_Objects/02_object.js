@@ -49,4 +49,4 @@ console.log(Object.entries(tinderUser));
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));           //boolean value..  TRUE        // like includes..
 
 
-//keys Values entries...
+//keys Values entries... and rest go to broswer inspect element for more.

@@ -38,4 +38,13 @@ function loginUserMessage (username = "you") {          // "you" is a default va
 
 //console.log(loginUserMessage("Arif"));
 //console.log(loginUserMessage(""));      // empty string ...just logged in
-console.log(loginUserMessage("Arif"));           // null nii ayega...undefine just logged in..   INTERVIEW
+//console.log(loginUserMessage("Arif"));           // null nii ayega...undefine just logged in..   INTERVIEW
+
+
+function watchingMovies(Movies = "Horror"){
+    return `you are Watching ${Movies}`
+}
+
+watchingMovies()
+console.log(watchingMovies("Movies") );
+

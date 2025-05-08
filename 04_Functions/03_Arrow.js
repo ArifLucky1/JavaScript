@@ -42,10 +42,15 @@ const user = {
 
 // ************************* Arrow Function *************************************
 
-// const addTwo = (num1, num2) => {             //Basic Arrow function
+// const addTwo = (num1, num2) => {             //Basic Arrow function explisite return(return lagna pada)
 //     return num1 + num2
 // }
 
 //const addTwo = (num1, num2) =>  num1 + num2           // Implesite return mean mene maan liya return lene ki zrurat h..
-const addTwo = (num1, num2) =>  (num1 + num2)           // {} curly brackets me likha to return likhna padega..parenthesis me likha to return nii likhna padega.. 
+//const addTwo = (num1, num2) =>  (num1 + num2)           // {} curly brackets me likha to return likhna padega..parenthesis me likha to return nii likhna padega.. 
 // console.log(addTwo(3, 4));
+
+//use of array
+
+// const myArray = [2, 5, 6, 8]
+// myArray.forEach(() =>())

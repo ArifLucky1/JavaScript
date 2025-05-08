@@ -3,7 +3,8 @@ const user = {
     price: 1999,
 
     welcomeMessage: function() {
-        console.log(`${this.username} , welcome to website`);
+        // console.log(`${this.username} , welcome to website`);
+        // console.log(this);
         
     }
 }
@@ -12,4 +13,31 @@ const user = {
 // user.username = "sam"
 // user.welcomeMessage()
 
-console.log(this);
+// console.log(this);
+
+// function chai(){
+//     let username = "Arif"
+//      console.log(this.username);
+    
+// }
+// chai()
+
+
+
+// const chai = function() {
+//     let username = "Arif"
+//     console.log(this.username);
+    
+// }
+//chai()
+
+// const chai = () => {
+//     let username = "Arif"
+//     console.log(this);
+    
+// }
+// chai()
+
+
+
+// ************************* Arrow Function *************************************

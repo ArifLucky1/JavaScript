@@ -41,3 +41,11 @@ const user = {
 
 
 // ************************* Arrow Function *************************************
+
+// const addTwo = (num1, num2) => {             //Basic Arrow function
+//     return num1 + num2
+// }
+
+//const addTwo = (num1, num2) =>  num1 + num2           // Implesite return mean mene maan liya return lene ki zrurat h..
+const addTwo = (num1, num2) =>  (num1 + num2)           // {} curly brackets me likha to return likhna padega..parenthesis me likha to return nii likhna padega.. 
+// console.log(addTwo(3, 4));

@@ -18,9 +18,10 @@
 // ********** Do while loop ***********     pehle kaam phir condition check..
 
 
-let score = 1
+// let score = 1   // 11
 
-do {
-    console.log(`score is ${score}`);
-    score++
-}while (score <= 10);
+// do {
+//     console.log(`score is ${score}`);
+//     score++
+// }while (score <= 10);
+

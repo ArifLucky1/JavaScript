@@ -71,10 +71,30 @@ for (const [key, value] of map) {            // destructuring krdeta h
 
 // for-in for Arrays
 
-const programming = ["js", "rb", "py", "java", "cpp"]
+// const programming = ["js", "rb", "py", "java", "cpp"]
 
-for (const key in programming) {
-  //console.log(key);            //0, 1, 2, 3, 4
-    console.log(programming[key]);
+// for (const key in programming) {
+//   //console.log(key);            //0, 1, 2, 3, 4
+//     console.log(programming[key]);
     
-}
+// }
+
+
+
+// for-each loop
+
+const coding = ["js", "ruby", "java", "python", "cpp"]
+
+// coding.forEach( function (val) {
+//     console.log(val);
+  
+// })
+
+//Arrow function..
+
+// coding.forEach ((item) => {
+//     console.log(item);
+    
+// })
+
+

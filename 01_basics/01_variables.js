@@ -22,3 +22,14 @@ Because of issue in block Scope and functional scope
 */
 
 console.table([accountId, accountEmail, accountPassword, accountCity])
+
+
+// Var vs let vs const
+//                    var                let           const
+// Scope          | function scope  | Block scope | Block Scope
+// Re-declare     | Yes             | No          | No
+// Re-assign      | Yes             | Yes         | No
+// Hoisting       | Yes (init as undefined)  | Yes (TDZ)   | Yes (TDZ)
+// Use            | Old             | New Code    | Constants
+
+// TDZ = temporal Dead Zone (can't access before declaration)

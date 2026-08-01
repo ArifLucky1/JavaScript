@@ -1,0 +1,15 @@
+Event Loop allows javaScript to perform non-blocking operations.
+
+1) Call stack executes code.
+2) Web APIs handle async tasks.
+3) Callback Queue holds completed tasks.
+4) Event Loop moves task from queue to stack.
+
+   
+   
+                  Event Loop
+   Call stack  ⇔     ↻       ⇒  Callback Queue
+              ↖       ↕       ↗           
+                  Web APIs
+                
+

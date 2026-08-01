@@ -11,5 +11,5 @@
    }
 
    const fn = outer();
-   fn();
-   fn();
+   fn();        // 1
+   fn();        // 2

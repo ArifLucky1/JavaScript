@@ -12,4 +12,4 @@
         }
     }
 
-    console.log(x);
+    console.log(x);                 // 10

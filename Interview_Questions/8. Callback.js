@@ -9,3 +9,8 @@
     greet("Arif", function(){
         console.log("Callback executed");
     });
+
+
+
+
+    // ** Used in async operations like setTimeout, events, API calls etc.

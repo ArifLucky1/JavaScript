@@ -1,0 +1,6 @@
+Call Stack is a data structure that keep track of function calls.
+
+* LIFO (Last In First Out)
+* When a function is called, it is pushed to stack.
+* When it returns, it is popped.
+* if stack overflows -> "Maximum call stack size exceeded" error. 

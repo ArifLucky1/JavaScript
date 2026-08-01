@@ -1,6 +1,6 @@
 // promise is an object representing the eventual completion (or failure) of an async operation.
 
-// * State : pending, Fullfilled, Rejected.
+// * States : Pending, Fulfilled, Rejected.
 // * Methods : then(), catch(), finally(). 
 
 
@@ -10,5 +10,5 @@
         else reject("Error");
     });
     
-    Promise.then(res => console.log(res))
-    .catch(err => console.log(err));
+    promise.then(res => console.log(res))
+        .catch(err => console.log(err));

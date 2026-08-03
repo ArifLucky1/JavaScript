@@ -19,7 +19,7 @@ const { StrictMode } = require("react")
     obj.sayHi();                 // Arif
 
     const fn = obj.sayHi;
-    fn()                        // undefined in strict mode
+    fn()                        // undefined (in strict mode)
 
 
     const arrow = ();  

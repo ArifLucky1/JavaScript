@@ -1,0 +1,5 @@
+When an object tries to access a property, it first looks in its own properties, 
+    then in its prototype, and so on up the chain.
+
+ex: p1 -> Person.prototype -> Object.prototype -> null
+            (object)           (root object)

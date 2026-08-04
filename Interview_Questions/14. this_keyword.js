@@ -22,6 +22,6 @@ const { StrictMode } = require("react")
     fn()                        // undefined (in strict mode)
 
 
-    const arrow = ();  
+    const arrow = () =>  
     console.log(this);
     arrow();                    // window (or undefined in strict mode)

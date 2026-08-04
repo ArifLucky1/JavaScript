@@ -15,3 +15,5 @@
 
     const d = new Dog();
     console.log(d.speak());                 //Dog barks
+
+    // ** Dog inherits speak() from Animal and overrides it.

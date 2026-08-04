@@ -7,3 +7,5 @@
 
     console.log(sum);
     
+
+// ** arr.reduce(callback(acc,cur,index,arr), initialValue)

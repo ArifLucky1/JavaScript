@@ -12,3 +12,5 @@
         console.log(user.contact?.mobile);      // undefined (no error)
         
         
+        
+        // **** Prevents "Cannot read property of undefined" errors.

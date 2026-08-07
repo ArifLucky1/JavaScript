@@ -1,0 +1,17 @@
+
+.                            Deep Copy Vs Shallow Copy
+
+___________________________________________________________________________________________________________________________________
+   Feature      ¦             Shallow Copy                  ¦               Deep Copy
+-----------------------------------------------------------------------------------------------------------------------------------    
+
+  Definition    ¦   Copies top-level properties only        ¦   Copies all nested properties
+
+  Methods       ¦   Object.assign(), spread{...}, slice()   ¦   JSON.parse(JSON.stringify()), structuredClone(), custom recursion
+
+  Reference     ¦   Nested object share same reference      ¦   Nested object have new reference 
+
+  Performance   ¦   Faster                                  ¦   Slower
+                                                                                                                                
+  Use case      ¦   Simple objects                           ¦   Complex nested objects
+___________________________________________________________________________________________________________________________________

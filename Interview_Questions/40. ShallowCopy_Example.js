@@ -11,4 +11,7 @@
     copy.nested.b = 20;                // affects original (same reference)
 
     console.log(original.nested.b);             // 20
+
+
+    // *** Nested objects are still shared (same reference)
     

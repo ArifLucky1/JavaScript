@@ -1,0 +1,19 @@
+DOM (Document Object Model) ?
+
+DOM is a programming interface for HTML documents. It represnents the page as a tree of nodes (objects).
+
+
+//                          Document
+//                             ⬇
+//                            HTML
+//                             ⬇
+//             ⬇                                    ⬇
+//            Head                                 body
+//             ⬇                                    ⬇
+//           title                          h1              p        
+
+    
+    
+    *** We can access & manipulate elements using JS. ***
+
+Common Methods: getElementById(), querySelector(), createElement(), appendChild(), removeChild(), etc.

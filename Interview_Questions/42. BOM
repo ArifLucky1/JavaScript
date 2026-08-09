@@ -1,0 +1,15 @@
+BOM (Browser Object Model) ?
+
+BOM represnents additional objects provided by the browser to work with everything outside the document.
+
+    EX: window, navigation, location, history, screen, alert(), confirm(), etc.
+
+  ¦----------------------------------------------------------------¦
+  ¦   Object      ¦               Use                              ¦         
+  ¦----------------------------------------------------------------¦
+  ¦   window      ¦   Global object, represnents browser window    ¦
+  ¦   navigation  ¦   Info about browser & OS                      ¦ 
+  ¦   location    ¦   URL related info & navigation                ¦ 
+  ¦   history     ¦   Browser history (back, forword)              ¦ 
+  ¦   screen      ¦   screen related info                          ¦ 
+  ¦________________________________________________________________¦ 

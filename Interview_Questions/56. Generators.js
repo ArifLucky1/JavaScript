@@ -15,4 +15,4 @@
         console.log(gen.next());                    // {value: undefined, done: true}
 
 
-        ***  Helpful for lazy evaluation, infinite sequences, etc.   ***
+        // ***  Helpful for lazy evaluation, infinite sequences, etc.   ***

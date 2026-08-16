@@ -16,4 +16,4 @@
         console.log(typeof b);          // object (historical bug)
         
         
-        
+//        ***  Use null when you want to clear or empty a value.    ***

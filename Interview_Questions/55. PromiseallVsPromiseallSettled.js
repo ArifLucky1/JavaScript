@@ -15,7 +15,7 @@
         // Promise.all
             promise.all([p1,p2])
             .then(res => console.log(res))
-            .then(err => console.log(err))
+            .catch(err => console.log(err))
 
 
         

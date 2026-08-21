@@ -1,0 +1,25 @@
+
+    Microtask Queue     Vs          Macrotask Queue ??
+
+        Tasks in JS are executed from different queues.
+
+
+    Feature                   Microtask Queue                                       Macrotask Queue
+
+ -> Examples                Promise.then, queueMicrotask, MutationObserver          setTimeout, setInterval, I/O, DOM events.
+ 
+ -> Priority                Higher Priority                                         Lower Priority
+
+ -> Execution               Runs before next macrotask                              Runs after microtasks are cleared.
+
+ -> Queue Type              One                                                     Multiple
+
+
+
+
+    
+
+
+    Call Stack      ->          Microtask Queue         ->          Macrotask Queue
+        ⬆                                                                   ⬆
+        ---------------------   Order of Execution  -------------------------

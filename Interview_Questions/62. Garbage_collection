@@ -1,0 +1,15 @@
+
+    Garbage Collection ?
+
+    Garbage Collection is the process of removing unreachable object from memory.
+
+
+    Reachable                                   unreachable
+    (in use)                                     (removed)   
+
+         O                                          O
+       ↗  ↖                                             O
+      O     O                                       O       
+        
+
+    ->  ***  Helps to free memory and avoid memory leaks.   ***

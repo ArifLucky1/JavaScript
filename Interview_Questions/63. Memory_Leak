@@ -1,0 +1,14 @@
+
+    Memory Leak ??
+
+    Memory Leak happens when object are no longer needed but are still referenced somewhere.
+
+
+    Common causes:
+        - Global variables
+        - Unremoved event listeners
+        - Closures holding references
+        - setInterval not cleared
+
+
+       ->   ***  Use chrome DevTools (memory tab) to find memory leaks.   *** 

@@ -1,0 +1,26 @@
+
+    Promise.allSettled Vs any Vs race ??
+
+    More promise combinations you should know.
+
+
+
+
+    Method              Resolves with                       Rejects if                  Use case
+    -------------------------------------------------------------------------------------------------------
+
+    all()               All values                          Any rejects                 wait for all to succeed
+    
+    allSettled()        All results (status + value)        Never                       Get all results
+
+    any()               First fulfilled value               All reject                  Need 1 success
+
+    race()              First settled value                 First reject                Whoever finishes first
+                        (resolve or reject)
+
+
+
+
+
+        promise.any([p1,p2,p3])                 // resolves with first success
+        promise.race([p1,p2,p3])                // resolves/rejects with first settled
